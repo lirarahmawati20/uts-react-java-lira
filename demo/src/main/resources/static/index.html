@@ -1,0 +1,31 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <main></main>
+    <script>
+      const main = document.querySelector("main");
+
+      fetch("/mahasiswa.json")
+        .then((response) => response.json())
+        .then((mahasiswa) =>
+          mahasiswa.forEach((mahasiswa) => {
+            const h2 = document.createElement("h2");
+            h2.textContent = `0${mahasiswa.id} ${mahasiswa.name}`;
+            main.appendChild(h2);
+          })
+        );
+    </script>
+  </body>
+</html> -->
